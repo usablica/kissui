@@ -1,4 +1,4 @@
-# Kissui
+<p align="center"><img src='https://raw.githubusercontent.com/usablica/kissui/master/images/logo.png' /></p>
 
 :dizzy: Simple, easy to use, modern web development framework.
 
