@@ -51,6 +51,7 @@ Thanks to:
 
 - [Dave Gamache](https://github.com/dhg) for developing Skeleton
 - [Seth Coelen](https://github.com/WhatsNewSaes) for making the Sass files
+- [Daniel Eden](https://github.com/daneden) for animate.css
 - [Anton](https://thenounproject.com/parkasever/) for making the phoenix icon
 
 ## License
