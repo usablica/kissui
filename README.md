@@ -44,7 +44,11 @@ In order to be able to build the **Kissui**, you should install some dependencie
 
 Afshin Mehrabani (afshin.meh@gmail.com)
 
-Thanks to [Dave Gamache](https://github.com/dhg) for developing Skeleton and [Seth Coelen](https://github.com/WhatsNewSaes) for making the Sass files.
+Thanks to: 
+
+- [Dave Gamache](https://github.com/dhg) for developing Skeleton
+- [Seth Coelen](https://github.com/WhatsNewSaes) for making the Sass files.
+- [Anton](https://thenounproject.com/parkasever/) for making the phoenix icon
 
 ## License
 
