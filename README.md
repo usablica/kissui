@@ -1,6 +1,9 @@
-<p align="center"><img src='https://raw.githubusercontent.com/usablica/kissui/master/images/logo.png' /></p>
+<p align="center"><img src='https://raw.githubusercontent.com/usablica/kissui/master/images/logo.png' /><br>
+Simple, easy to use, modern web development framework.
 
-:dizzy: Simple, easy to use, modern web development framework.
+
+</p>
+
 
 ### Philosophy 
 
