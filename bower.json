@@ -1,0 +1,29 @@
+{
+  "name": "Kissui",
+  "version": "0.1.0",
+  "homepage": "https://github.com/usablica/kissui",
+  "authors": [
+    "Afshin Mehrabani <afshin.meh@gmail.com> (http://afshinm.name)"
+  ],
+  "description": "Simple, easy to use, modern web development framework",
+  "main": "scss/kissui.scss",
+  "keywords": [
+    "kissui",
+    "kiss ui",
+    "sass",
+    "scss",
+    "ui",
+    "responsive",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.2",
+    "animate.css": "~3.5.1"
+  }
+}
