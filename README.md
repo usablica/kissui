@@ -1,6 +1,7 @@
 # kissui
 
-Simple, easy-to-use and modern user-interface framework. 
+:dizzy: Simple, easy to use, modern web development framework.
+
 
 ## Philosophy 
 
