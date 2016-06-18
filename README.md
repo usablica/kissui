@@ -15,6 +15,15 @@ The [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) states that m
 
 The first objective of **Kissui** is to the life easier for web/mobile developers and their users.
 
+## Key features
+
+- Simple, lightweight and easy to use
+- Responsive. Ready for developing web, mobile and  desktop apps
+- Retina display ready
+- Free and open-source
+
+...and alive.
+
 ## Author(s)
 
 Afshin Mehrabani (afshin.meh@gmail.com)
