@@ -2,7 +2,7 @@
 
 :dizzy: Simple, easy to use, modern web development framework.
 
-## Philosophy 
+### Philosophy 
 
 > Everything should be as simple as possible, but not simpler.
 > [Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein)
@@ -15,7 +15,7 @@ The [KISS principle](https://en.wikipedia.org/wiki/KISS_principle) states that m
 
 The first objective of **Kissui** is to the life easier for web/mobile developers and their users.
 
-## Key features
+### Key features
 
 - Simple, lightweight and easy to use
 - Responsive. Ready for developing web, mobile and  desktop apps
@@ -23,6 +23,22 @@ The first objective of **Kissui** is to the life easier for web/mobile developer
 - Free and open-source
 
 ...and alive.
+
+## Build
+
+In order to be able to build the **Kissui**, you should install some dependencies first (if you don't have them already)
+
+#### Installing main dependancies
+  * [Node.js](http://nodejs.org)
+  * [bower](http://bower.io): `[sudo] npm install bower -g`
+  * [grunt.js](http://gruntjs.com): `[sudo] npm install -g grunt-cli`
+
+#### Installing local dependancies
+  * Clone the project
+  * `cd` to the project folder
+  * run `[sudo] npm install` (first time)
+  * run `grunt` (to watch and compile files)
+
 
 ## Author(s)
 
