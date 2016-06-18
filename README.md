@@ -47,7 +47,7 @@ Afshin Mehrabani (afshin.meh@gmail.com)
 Thanks to: 
 
 - [Dave Gamache](https://github.com/dhg) for developing Skeleton
-- [Seth Coelen](https://github.com/WhatsNewSaes) for making the Sass files.
+- [Seth Coelen](https://github.com/WhatsNewSaes) for making the Sass files
 - [Anton](https://thenounproject.com/parkasever/) for making the phoenix icon
 
 ## License
