@@ -13,6 +13,7 @@
         margin-left: 1rem;
         margin-right: 1rem;
         font-weight: 600;
+        display: block;
         color: $font-color;
     }
 
@@ -21,8 +22,28 @@
         color: $link-color;
     }
 
+    .item.active {
+        color: $link-color;
+    }
+
     .item:first-child {
         margin-left: 0;
+    }
+}
+
+.menu.basic {
+    .item {
+        letter-spacing: .1rem;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+}
+
+.menu.vertical {
+    .item {
+        float: inherit;
+        line-height: 4.5rem;
     }
 }
 
