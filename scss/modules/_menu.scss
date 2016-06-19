@@ -29,21 +29,33 @@
     .item:first-child {
         margin-left: 0;
     }
-}
 
-.menu.basic {
-    .item {
-        letter-spacing: .1rem;
-        text-transform: uppercase;
-        font-size: 1.2rem;
-        font-weight: 400;
+    //basic menu
+    &.basic {
+        .item {
+            letter-spacing: .1rem;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
     }
-}
 
-.menu.vertical {
-    .item {
-        float: inherit;
-        line-height: 4.5rem;
+    //menu with border bottom
+    &.border {
+        border-bottom: 1px solid #EEE;
+    }
+
+    //vertical menu
+    &.vertical {
+        .item {
+            float: inherit;
+            line-height: 4.5rem;
+        }
+
+        &.border {
+            border: none;
+            border-right: 1px solid #EEE;
+        }
     }
 }
 
