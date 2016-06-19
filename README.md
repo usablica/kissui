@@ -1,6 +1,9 @@
-# Kissui
+<p align="center"><img src='https://raw.githubusercontent.com/usablica/kissui/master/images/logo.png' /><br>
+Simple, easy to use, modern web development framework.
 
-:dizzy: Simple, easy to use, modern web development framework.
+
+</p>
+
 
 ### Philosophy 
 
@@ -39,6 +42,15 @@ In order to be able to build the **Kissui**, you should install some dependencie
   * run `[sudo] npm install` (first time)
   * run `grunt` (to watch and compile files)
 
+## Versioning
+
+Kissui will be maintained under the Semantic Versioning guidelines. Releases will be numbered with the following format:
+
+```
+<major>.<minor>.<patch>
+```
+
+For more information on SemVer, visit http://semver.org.
 
 ## Author(s)
 
@@ -48,6 +60,8 @@ Thanks to:
 
 - [Dave Gamache](https://github.com/dhg) for developing Skeleton
 - [Seth Coelen](https://github.com/WhatsNewSaes) for making the Sass files
+- [Daniel Eden](https://github.com/daneden) for animate.css
+- [Dave Gandy](https://github.com/davegandy) for FontAwesome
 - [Anton](https://thenounproject.com/parkasever/) for making the phoenix icon
 
 ## License
