@@ -1,0 +1,35 @@
+// Menu
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+
+.menu {
+    list-style: none;
+    margin-bottom: 0;
+
+    .item {
+        float: left;
+        margin-bottom: 0;
+        line-height: 6.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-weight: 600;
+        color: $font-color;
+    }
+
+    a.item:hover {
+        text-decoration: none;
+        color: $link-color;
+    }
+
+    .item:first-child {
+        margin-left: 0;
+    }
+}
+
+.menu:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
