@@ -15,6 +15,14 @@
         font-weight: 600;
         display: block;
         color: $font-color;
+
+        &.header {
+            font-weight: 700;
+        }
+
+        &.right {
+            float: right;
+        }
     }
 
     a.item:hover {
@@ -37,12 +45,21 @@
             text-transform: uppercase;
             font-size: 1.2rem;
             font-weight: 400;
+
+            &.header {
+                font-weight: 700;
+            }
         }
     }
 
     //menu with border bottom
     &.border {
         border-bottom: 1px solid #EEE;
+
+        &.top {
+            border-bottom: none;
+            border-top: 1px solid #EEE;
+        }
     }
 
     //vertical menu
