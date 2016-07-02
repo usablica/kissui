@@ -4,6 +4,8 @@
 * MIT license
 */
 
+@import "external/normalize";
+
 /* Base files. */
 @import "base/variables";
 @import "base/functions";
@@ -23,6 +25,5 @@
 @import "modules/menu";
 
 /* External libs */
-@import "external/normalize";
 @import "external/animate";
 @import "external/fontawesome";
