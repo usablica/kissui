@@ -1,0 +1,28 @@
+// Code
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+pre {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-size: 90%;
+  white-space: nowrap;
+  background: lighten($light-grey, 9%);
+  border: 1px solid #EEE;
+  border-radius: $global-radius;
+  border-bottom-color: #E0E0E0;
+}
+
+code {
+  background: lighten($light-grey, 9%);
+  border: 1px solid #EEE;
+  border-radius: $global-radius;
+  padding-left: .2rem;
+  padding-right: .2rem;
+}
+
+pre > code {
+  border: none;
+  display: block;
+  padding: 1rem 1.5rem;
+  white-space: pre;
+}
