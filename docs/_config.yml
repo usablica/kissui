@@ -1,0 +1,14 @@
+# Site settings
+title: Kissui
+email: afshin.meh@gmail.com
+description: > 
+    Kissui or Kiss ui (KISS stands for Keep it simple, stupid) is a HTML5 and CSS3 framework for desktop and mobile to make a beautiful and simple user-interface. 
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://kissui.io" # the base hostname & protocol for your site
+twitter_username: usablica
+github_username:  usablica
+category-list: [basics, elements, extra]
+
+# Build settings
+markdown: kramdown

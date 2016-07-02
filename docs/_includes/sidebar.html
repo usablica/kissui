@@ -1,0 +1,19 @@
+<nav class="basic vertical menu">
+{% for cat in site.category-list %}
+
+<div class="items">
+    <div class="icon item header">
+        {% if cat == 'basics' %}<i class="fa fa-gear"></i>{% endif %}
+        {% if cat == 'elements' %}<i class="fa fa-cube"></i>{% endif %}
+        {% if cat == 'extra' %}<i class="fa fa-expand"></i>{% endif %}{{ cat }}
+    </div>
+  {% for page in site.pages %}
+      {% for pc in page.categories %}
+        {% if pc == cat %}
+          <a class="item" href="{{ page.url }}">{{ page.title }}</a>
+        {% endif %}
+      {% endfor %}
+  {% endfor %}
+</div>
+{% endfor %}
+</nav>
