@@ -17,7 +17,13 @@ html, body {
   font-weight: 600;
   letter-spacing: .1rem; 
 }
-
+.page-content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.heading-font-size {
+    font-size: 1.5rem;
+}
 pre[class*="language-"] {
   background:  #f8f8f8 !important;
 }
