@@ -430,7 +430,8 @@ input[type="submit"], input[type="reset"], input[type="button"] {
 button:hover {
   color: #333;
   border-color: #888888;
-  outline: 0; }
+  outline: 0;
+  text-decoration: none; }
 
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
   color: #333;

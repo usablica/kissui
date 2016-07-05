@@ -51,6 +51,7 @@ button:hover {
   color: $dark-grey;
   border-color: lighten($dark-grey, 33.3%);
   outline: 0;
+  text-decoration: none;
 }
 
 input {
