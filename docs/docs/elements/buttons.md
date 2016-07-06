@@ -5,7 +5,8 @@ categories: elements
 permalink: /docs/elements/buttons/
 ---
 
-<p>Buttons come in two basic flavors in Kissui. The standard <code>&lt;button&gt;</code> element is plain, whereas the <code>.button-primary</code> button is vibrant and prominent. Button styles are applied to a number of appropriate form elements, but can also be arbitrarily attached to anchors with a <code>.button</code> class.</p>
+<p>Buttons come in two basic flavors in Kissui. 
+The standard <code>&lt;button&gt;</code> element is plain, whereas the <code>.button .primary</code> button is vibrant and prominent. Button styles are applied to a number of appropriate form elements, but can also be arbitrarily attached to anchors with a <code>.button</code> class.</p>
 
 <div class="docs-example">
 <div>
@@ -15,10 +16,10 @@ permalink: /docs/elements/buttons/
   <input type="button" value="button input">
 </div>
 <div>
-  <a class="button button-primary" href="#">Anchor button</a>
-  <button class="button-primary">Button element</button>
-  <input class="button-primary" type="submit" value="submit input">
-  <input class="button-primary" type="button" value="button input">
+  <a class="button primary" href="#">Anchor button</a>
+  <button class="button primary">Button element</button>
+  <input class="button primary" type="submit" value="submit input">
+  <input class="button primary" type="button" value="button input">
 </div>
 </div>
 
@@ -30,9 +31,9 @@ permalink: /docs/elements/buttons/
 &lt;input type="button" value="button input"&gt;
 
 &lt;!-- Primary buttons --&gt;
-&lt;a class="button button-primary" href="#"&gt;Anchor button&lt;/a&gt;
-&lt;button class="button-primary"&gt;Button element&lt;/button&gt;
-&lt;input class="button-primary" type="submit" value="submit input"&gt;
-&lt;input class="button-primary" type="button" value="button input"&gt;
+&lt;a class="button primary" href="#"&gt;Anchor button&lt;/a&gt;
+&lt;button class="button primary"&gt;Button element&lt;/button&gt;
+&lt;input class="button primary" type="submit" value="submit input"&gt;
+&lt;input class="button primary" type="button" value="button input"&gt;
 </code>
 </pre>

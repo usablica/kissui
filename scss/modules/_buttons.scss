@@ -81,55 +81,55 @@ input {
   }
 }
 
-.button.button-primary,
-button.button-primary {
-  color: #fff;
-  background-color: $primary-color;
-  border-color: $primary-color;
+.button {
+    &.primary {
+        color: #fff;
+        background-color: $primary-color;
+        border-color: $primary-color;
+
+        &:hover, &:focus {
+            color: #fff;
+            background-color: $link-color;
+            border-color: $link-color;
+        }
+    }
+}
+
+button {
+    .button {
+        &.primary {
+            color: #fff;
+            background-color: $primary-color;
+            border-color: $primary-color;
+
+            &:hover, &:focus {
+                color: #fff;
+                background-color: $link-color;
+                border-color: $link-color;
+            }
+        }
+    }
 }
 
 input {
-  &[type="submit"].button-primary,
-  &[type="reset"].button-primary,
-  &[type="button"].button-primary {
-    color: #fff;
-    background-color: $primary-color;
-    border-color: $primary-color;
-  }
-}
+    &.button {
+        &[type="submit"].primary,
+        &[type="reset"].primary,
+        &[type="button"].primary {
+            color: #fff;
+            background-color: $primary-color;
+            border-color: $primary-color;
 
-.button.button-primary:hover,
-button.button-primary:hover {
-  color: #fff;
-  background-color: $link-color;
-  border-color: $link-color;
-}
-
-input {
-  &[type="submit"].button-primary:hover,
-  &[type="reset"].button-primary:hover,
-  &[type="button"].button-primary:hover {
-    color: #fff;
-    background-color: $link-color;
-    border-color: $link-color;
-  }
-}
-
-.button.button-primary:focus,
-button.button-primary:focus {
-  color: #fff;
-  background-color: $link-color;
-  border-color: $link-color;
+            &:hover, &:focus {
+                color: #fff;
+                background-color: $link-color;
+                border-color: $link-color;
+            }
+        }
+    }
 }
 
 input {
-  &[type="submit"].button-primary:focus,
-  &[type="reset"].button-primary:focus,
-  &[type="button"].button-primary:focus {
-    color: #fff;
-    background-color: $link-color;
-    border-color: $link-color;
-  }
   &[type="email"],
   &[type="number"],
   &[type="search"],
