@@ -42,7 +42,7 @@ permalink: /docs/extra/icons/
 </pre>
 
 <p>
-You can simply find and select your icon name <a href="http://fontawesome.io/icons/" target="blank" rel="nofollow">here</a>. It is possible to use icons with <a href="docs/basics/typography/" title="Kissui Headings">Headings</a> and <a href="docs/elements/menus/" title="Kissui Menus">Menus</a>.
+You can simply find and select your icon name <a href="http://fontawesome.io/icons/" target="blank" rel="nofollow">here</a>. It is possible to use icons with <a href="/docs/basics/typography/" title="Kissui Headings">Headings</a> and <a href="/docs/elements/menus/" title="Kissui Menus">Menus</a>.
 </p>
 
 <p>Last but not least, you can add animated icons:</p>
