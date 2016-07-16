@@ -174,6 +174,37 @@ The basic sample of menus is a like:
 
 <p></p>
 
+<h4>Vertical Border Menu</h4>
+
+<p>Vertical menu can have <code>border</code> class name.</p>
+
+<nav class="vertical border menu">
+    <a class="header item" href="/">
+    Your Product
+    </a>
+    <a class="item" href="/">Home</a>
+    <a class="item" href="/">Documents</a>
+    <a class="item" href="/">Contact</a>
+    <a class="item" href="/">About</a>
+</nav>
+
+
+<pre class="code-example">
+<code class="language-html">
+&lt;nav class=&quot;vertical border menu&quot;&gt;
+    &lt;a class=&quot;header item&quot; href=&quot;/&quot;&gt;
+    Your Product
+    &lt;/a&gt;
+    &lt;a class=&quot;item&quot; href=&quot;/&quot;&gt;Home&lt;/a&gt;
+    &lt;a class=&quot;item&quot; href=&quot;/&quot;&gt;Documents&lt;/a&gt;
+    &lt;a class=&quot;item&quot; href=&quot;/&quot;&gt;Contact&lt;/a&gt;
+    &lt;a class=&quot;item&quot; href=&quot;/&quot;&gt;About&lt;/a&gt;
+&lt;/nav&gt;
+</code>
+</pre>
+
+<p></p>
+
 <h4>Menu Grouping</h4>
 
 <p>Items can be nested and make a group of items.</p>
