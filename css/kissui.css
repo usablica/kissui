@@ -654,20 +654,22 @@ form {
     .menu.border.top {
       border-bottom: none;
       border-top: 1px solid #EEE; }
-  .menu.vertical .items {
-    border-top: 1px dashed #EEE; }
-    .menu.vertical .items:first-child {
-      border-top: none; }
-  .menu.vertical .item {
-    float: inherit;
-    line-height: 3.5rem;
-    margin-left: 0; }
-  .menu.vertical .header {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem; }
-  .menu.vertical.border {
-    border: none;
-    border-right: 1px solid #EEE; }
+  .menu.vertical {
+    width: 15rem; }
+    .menu.vertical .items {
+      border-top: 1px dashed #EEE; }
+      .menu.vertical .items:first-child {
+        border-top: none; }
+    .menu.vertical .item {
+      float: inherit;
+      line-height: 3.5rem;
+      margin-left: 0; }
+    .menu.vertical .header {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem; }
+    .menu.vertical.border {
+      border: none;
+      border-right: 1px solid #EEE; }
 
 .menu:after {
   content: '';
