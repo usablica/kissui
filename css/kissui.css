@@ -430,7 +430,8 @@ input[type="submit"], input[type="reset"], input[type="button"] {
 button:hover {
   color: #333;
   border-color: #888888;
-  outline: 0; }
+  outline: 0;
+  text-decoration: none; }
 
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
   color: #333;
@@ -448,38 +449,32 @@ input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focu
   border-color: #888888;
   outline: 0; }
 
-.button.button-primary,
-button.button-primary {
+.button.primary {
   color: #fff;
   background-color: #33c3f0;
   border-color: #33c3f0; }
+  .button.primary:hover, .button.primary:focus {
+    color: #fff;
+    background-color: #1eaedb;
+    border-color: #1eaedb; }
 
-input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+button .button.primary {
   color: #fff;
   background-color: #33c3f0;
   border-color: #33c3f0; }
+  button .button.primary:hover, button .button.primary:focus {
+    color: #fff;
+    background-color: #1eaedb;
+    border-color: #1eaedb; }
 
-.button.button-primary:hover,
-button.button-primary:hover {
+input.button[type="submit"].primary, input.button[type="reset"].primary, input.button[type="button"].primary {
   color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb; }
-
-input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover {
-  color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb; }
-
-.button.button-primary:focus,
-button.button-primary:focus {
-  color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb; }
-
-input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
-  color: #fff;
-  background-color: #1eaedb;
-  border-color: #1eaedb; }
+  background-color: #33c3f0;
+  border-color: #33c3f0; }
+  input.button[type="submit"].primary:hover, input.button[type="submit"].primary:focus, input.button[type="reset"].primary:hover, input.button[type="reset"].primary:focus, input.button[type="button"].primary:hover, input.button[type="button"].primary:focus {
+    color: #fff;
+    background-color: #1eaedb;
+    border-color: #1eaedb; }
 
 input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"] {
   height: 38px;
