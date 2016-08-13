@@ -118,4 +118,7 @@ pre[class*="language-"] {
     opacity: 1;
   }
 }
-
+.fluid {
+     padding-left: 20px;
+     padding-right: 20px;
+}
