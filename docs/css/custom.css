@@ -118,7 +118,7 @@ pre[class*="language-"] {
     opacity: 1;
   }
 }
-.fluid {
+div.fluid {
      padding-left: 20px;
      padding-right: 20px;
 }

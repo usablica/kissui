@@ -143,6 +143,36 @@ The basic sample of menus is a like:
 
 <p></p>
 
+<h4>Responsive Menu</h4>
+
+<p>Menus can be responsive to render items better in portable devices. Add <code>responsive</code> class name to enable this feature.</p>
+
+<nav class="responsive border menu">
+    <a class="header item" href="/">
+    Your Product
+    </a>
+    <a class="item" href="/">Home</a>
+    <a class="item" href="/">Documents</a>
+    <a class="item" href="/">Contact</a>
+    <a class="item" href="/">About</a>
+</nav>
+
+<pre class="code-example">
+<code class="language-html">
+&lt;nav class=&quot;responsive border menu&quot;&gt;
+    &lt;a class=&quot;header item&quot; href=&quot;/&quot;&gt;
+    Your Product
+    &lt;/a&gt;
+    &lt;a class=&quot;item&quot; href=&quot;/&quot;&gt;Home&lt;/a&gt;
+    &lt;a class=&quot;item&quot; href=&quot;/&quot;&gt;Documents&lt;/a&gt;
+    &lt;a class=&quot;item&quot; href=&quot;/&quot;&gt;Contact&lt;/a&gt;
+    &lt;a class=&quot;item&quot; href=&quot;/&quot;&gt;About&lt;/a&gt;
+&lt;/nav&gt;
+</code>
+</pre>
+
+<p></p>
+
 <h4>Vertical Menu</h4>
 
 <p>Simply change your menu to vertical by adding <b>vertical</b> class to your menu.</p>
@@ -161,6 +191,37 @@ The basic sample of menus is a like:
 <pre class="code-example">
 <code class="language-html">
 &lt;nav class=&quot;vertical menu&quot;&gt;
+    &lt;a class=&quot;header item&quot; href=&quot;/&quot;&gt;
+    Your Product
+    &lt;/a&gt;
+    &lt;a class=&quot;item&quot; href=&quot;/&quot;&gt;Home&lt;/a&gt;
+    &lt;a class=&quot;item&quot; href=&quot;/&quot;&gt;Documents&lt;/a&gt;
+    &lt;a class=&quot;item&quot; href=&quot;/&quot;&gt;Contact&lt;/a&gt;
+    &lt;a class=&quot;item&quot; href=&quot;/&quot;&gt;About&lt;/a&gt;
+&lt;/nav&gt;
+</code>
+</pre>
+
+<p></p>
+
+<h4>Vertical Fluid Menu</h4>
+
+<p>Vertical menus can have a fluid container. Add <b>fluid</b> class to your vertical menu.</p>
+
+<nav class="vertical fluid border menu">
+    <a class="header item" href="/">
+    Your Product
+    </a>
+    <a class="item" href="/">Home</a>
+    <a class="item" href="/">Documents</a>
+    <a class="item" href="/">Contact</a>
+    <a class="item" href="/">About</a>
+</nav>
+
+
+<pre class="code-example">
+<code class="language-html">
+&lt;nav class=&quot;vertical fluid menu&quot;&gt;
     &lt;a class=&quot;header item&quot; href=&quot;/&quot;&gt;
     Your Product
     &lt;/a&gt;
