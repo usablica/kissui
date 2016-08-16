@@ -2,22 +2,18 @@
 layout: default
 ---
 
-<div class="grid">
-    <div class="row">
-        <div class="nine columns">
-            <header class="post-header">
-                <h3 class="post-title">{{ page.title }}</h3>
-            </header>
-
-            <div class="post-content">
-                {{ content }}
-            </div>
-        </div>
-
-        <div class="three columns">
-            {% include sidebar.html %}
-        </div>
+<div class="row">
+    <div class="two columns">
+        {% include sidebar.html %}
     </div>
 
-</div>
+    <div class="ten columns">
+        <header class="post-header">
+            <h3 class="post-title">{{ page.title }}</h3>
+        </header>
 
+        <div class="post-content">
+            {{ content }}
+        </div>
+    </div>
+</div>

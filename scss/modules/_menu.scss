@@ -33,6 +33,17 @@
         }
     }
 
+    &.responsive {
+        @media (#{$bp-smaller-than-desktop}) {
+            .item {
+                width: 100%;
+                margin-left: 0;
+                margin-right: 0;
+                line-height: 3.5rem;
+            }
+        }
+    }
+
     a.item:hover {
         text-decoration: none;
         color: $link-color;
@@ -73,6 +84,10 @@
     //vertical menu
     &.vertical {
         width: 15rem;
+
+        &.fluid {
+            width: 100% !important;
+        }
 
         .items {
              border-top: 1px dashed #EEE;

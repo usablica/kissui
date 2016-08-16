@@ -635,6 +635,12 @@ form {
       float: right; }
       .menu .item.right:first-child {
         margin-right: 0; }
+  @media (max-width: 1000px) {
+    .menu.responsive .item {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      line-height: 3.5rem; } }
   .menu a.item:hover {
     text-decoration: none;
     color: #1eaedb; }
@@ -656,6 +662,8 @@ form {
       border-top: 1px solid #EEE; }
   .menu.vertical {
     width: 15rem; }
+    .menu.vertical.fluid {
+      width: 100% !important; }
     .menu.vertical .items {
       border-top: 1px dashed #EEE; }
       .menu.vertical .items:first-child {
