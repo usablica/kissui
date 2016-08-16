@@ -1,0 +1,55 @@
+// Mixins 
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Breakpoint: inline-scss responsive changes
+@mixin breakpoint($max-width, $min-width: null) {
+    @if $min-width == null and $max-width != null {
+        @media (max-width: $max-width) {
+            @content;
+        }
+    }
+
+    @if $min-width != null and $max-width == null {
+        @media (min-width: $min-width) {
+            @content;
+        }
+    }
+
+    @if $min-width != null and $max-width != null {
+        @media (min-width: $min-width) and (max-width: $max-width) {
+            @content;
+        }
+    }
+}
+
+// Shorthand for positioning
+@mixin position($position-type, $top: null, $right: null, $bottom: null, $left: null) {
+	position: $position-type;
+	top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+}
+
+// generate button in class-name and colors developer wants.
+@mixin button($pcolor: $primary-color, $lcolor: $link-color, $button-name: null) {
+	@if $button-name != null {
+		.#{$button-name} {
+			@include button($pcolor, $lcolor);
+		}	
+	}
+	@else {
+		color: #fff;
+	 	background-color: $pcolor;
+	  	border-color: $pcolor;
+
+	  	&:hover, &:focus {
+    		color: #fff;
+    		background-color: $lcolor;
+	    	border-color: $lcolor;
+	  	}
+	}
+}
+
+
+

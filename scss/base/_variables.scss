@@ -13,6 +13,18 @@ $bp-smaller-than-tablet    : "max-width: 750px" !default;
 $bp-smaller-than-desktop   : "max-width: 1000px" !default;
 $bp-smaller-than-desktophd : "max-width: 1200px" !default;
 
+// Breakpoints variable for breakpoint mixin
+$larger-than-mobile    : 400px !default;
+$larger-than-phablet   : 550px !default;
+$larger-than-tablet    : 750px !default;
+$larger-than-desktop   : 1000px !default;
+$larger-than-desktophd : 1200px !default;
+$smaller-than-mobile    : 400px !default;
+$smaller-than-phablet   : 550px !default;
+$smaller-than-tablet    : 750px !default;
+$smaller-than-desktop   : 1000px !default;
+$smaller-than-desktophd : 1200px !default;
+
 // Colors
 $light-grey: #e1e1e1 !default;
 $dark-grey: #333 !default;
