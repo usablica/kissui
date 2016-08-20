@@ -664,10 +664,6 @@ form {
     width: 15rem; }
     .menu.vertical.fluid {
       width: 100% !important; }
-    .menu.vertical .items {
-      border-top: 1px dashed #EEE; }
-      .menu.vertical .items:first-child {
-        border-top: none; }
     .menu.vertical .item {
       float: inherit;
       line-height: 3.5rem;
@@ -678,6 +674,8 @@ form {
     .menu.vertical.border {
       border: none;
       border-right: 1px solid #EEE; }
+  .menu .items.secondary .item:not(.header) {
+    margin-left: 1rem; }
 
 .menu:after {
   content: '';

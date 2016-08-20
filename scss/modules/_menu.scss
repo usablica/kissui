@@ -89,14 +89,6 @@
             width: 100% !important;
         }
 
-        .items {
-             border-top: 1px dashed #EEE;
-
-             &:first-child {
-                 border-top: none;
-             }
-        }
-
         .item {
             float: inherit;
             line-height: 3.5rem;
@@ -113,6 +105,16 @@
             border-right: 1px solid #EEE;
         }
     }
+
+    //secondary menu
+    .items {
+        &.secondary {
+            .item:not(.header) {
+                margin-left: 1rem;
+            }
+        }
+    }
+
 }
 
 .menu:after {
