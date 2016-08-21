@@ -104,3 +104,23 @@
   display: table;
   clear: both;
 }
+
+// Vertical Positioning
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+// align element verticaly to center
+.vertical-center {
+  margin: {
+    top: 50%;
+    bottom: -50%;
+  }
+  transform: translateY(-50%);
+}
+
+// align element verticaly to bottom
+.vertical-bottom {
+  margin: {
+    top: 100%;
+    bottom: -100%;
+  }
+  transform: translateY(-100%);
+}

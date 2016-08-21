@@ -51,5 +51,20 @@
 	}
 }
 
+// generate inputs in class-name and colors developer wants.
+@mixin input($p-color: $primary-color,$s-color: $secondary-color , $b-color: $border-color, $input-name: null) {
+    @if $input-name != null {
+        .#{$input-name} {
+            @include input($p-color, $s-color, $b-color);
+        }   
+    }
+    @else {
+        color: $p-color;
+        border-color: $b-color;
 
-
+        &:hover, &:focus {
+            color: $s-color;
+            border-color: $s-color;
+        }
+    }
+}
