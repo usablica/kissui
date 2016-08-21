@@ -10,6 +10,17 @@ layout: default
     <div class="ten columns">
         <header class="post-header">
             <h3 class="post-title">{{ page.title }}</h3>
+
+            {% if page.table-of-content != nill %}
+            <div class="table-of-content">
+                <h5>Table of content</h5>
+                <ul>
+                    {% for p in page.table-of-content %}
+                        <li><a href="#{{p}}">{{p}}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% endif %}
         </header>
 
         <div class="post-content">

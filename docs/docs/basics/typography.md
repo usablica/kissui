@@ -3,11 +3,15 @@ layout: doc
 title: Typography
 categories: basics
 permalink: /docs/basics/typography/
+
+table-of-content:
+- Typography base
+- Headings
 ---
 
 <p>Type is all set with the <code>rems</code>, so font-sizes and spacial relationships can be responsively sized based on a single <code>&lt;html&gt;</code> font-size property. Out of the box, Kissui never changes the <code>&lt;html&gt;</code> font-size, but it's there in case you need it for your project. All measurements are still base 10 though so, an <code>&lt;h1&gt;</code> with <code>5.0rem</code>font-size just means <code>50px</code>.</p>
 
-<h4>Typography base</h4>
+<h4 id="Typography base">Typography base</h4>
 <p><strong>The typography base</strong> is <a href="https://www.google.com/fonts/specimen/Open+Sans">Open Sans</a> served by Google, set at 15rem (15px) over a 1.6 line height (24px). Other type basics like <a href="#">anchors</a>, <strong>strong</strong>, <em>emphasis</em>, and <u>underline</u> are all obviously included.</p>
 
 <h4>Headings</h4>
