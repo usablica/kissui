@@ -7,17 +7,21 @@ pre {
   font-size: 90%;
   white-space: nowrap;
   background: lighten($light-grey, 9%);
-  border: 1px solid #EEE;
-  border-radius: $global-radius;
-  border-bottom-color: #E0E0E0;
+  border: 1px solid #EEE {
+    radius: $global-radius;
+    bottom-color: #E0E0E0;
+  }
 }
 
 code {
   background: lighten($light-grey, 9%);
-  border: 1px solid #EEE;
-  border-radius: $global-radius;
-  padding-left: .2rem;
-  padding-right: .2rem;
+  border: 1px solid #EEE {
+    radius: $global-radius;
+  }
+  padding: {
+    left: .2rem;
+    right: .2rem;
+  }
 }
 
 pre > code {
