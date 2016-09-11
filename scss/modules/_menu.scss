@@ -34,7 +34,7 @@
     }
 
     &.responsive {
-        @media (#{$bp-smaller-than-desktop}) {
+        @include breakpoint($max-width: $desktop) {
             .item {
                 width: 100%;
                 margin-left: 0;

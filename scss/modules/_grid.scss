@@ -15,7 +15,7 @@
 }
 
 // For devices larger than 400px
-@media (#{$bp-larger-than-mobile}) {
+@include breakpoint($min-width: $mobile) {
   .container {
     width: $container-width-larger-than-mobile;
     padding: 0;
@@ -23,7 +23,7 @@
 }
 
 // For devices larger than 550px
-@media (#{$bp-larger-than-phablet}) {
+@include breakpoint($min-width: $phablet) {
   .container {
     width: $container-width-larger-than-phablet;
   }
@@ -103,4 +103,26 @@
   content: "";
   display: table;
   clear: both;
+}
+
+// Vertical Positioning
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+// align element verticaly to center
+.vertical {
+  &.center {
+    margin: {
+      top: 50%;
+      bottom: -50%;
+    }
+    transform: translateY(-50%);
+  }
+  
+  // align element verticaly to bottom
+  &.bottom {
+    margin: {
+      top: 100%;
+      bottom: -100%;
+    }
+    transform: translateY(-100%);
+  }
 }
