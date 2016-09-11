@@ -1,7 +1,7 @@
 // Mixins 
 //––––––––––––––––––––––––––––––––––––––––––––––––––
 // Breakpoint: inline-scss responsive changes
-@mixin breakpoint($max-width, $min-width: null) {
+@mixin breakpoint($max-width: null, $min-width: null) {
     @if $min-width==null and $max-width !=null {
         @media (max-width: $max-width) {
             @content;

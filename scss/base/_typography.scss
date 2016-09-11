@@ -17,7 +17,7 @@ h5 { font-size: 1.8rem; line-height: 1.40; margin-bottom: 2.55rem; letter-spacin
 h6 { font-size: 1.5rem; line-height: 1.70; margin-bottom: 2.55rem; letter-spacing: 0; }
 
 // Larger than phablet
-@media (#{$bp-larger-than-phablet}) {
+@include breakpoint($min-width: $phablet) {
   h1 { font-size: 5.0rem; line-height: 1.02; }
   h2 { font-size: 4.2rem; line-height: 1.23; }
   h3 { font-size: 3.6rem; line-height: 1.45; }

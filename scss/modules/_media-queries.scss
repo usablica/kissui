@@ -7,16 +7,19 @@
 // there.
 
 // Larger than mobile
-@media (#{$bp-larger-than-mobile}) {}
+@include breakpoint($min-width: $mobile) {}
 
 // Larger than phablet (also point when grid becomes active)
-@media (#{$bp-larger-than-phablet}) {}
+@include breakpoint($min-width: $phablet) {}
 
 // Larger than tablet
-@media (#{$bp-larger-than-tablet}) {}
+@include breakpoint($min-width: $tablet) {}
 
 // Larger than desktop
-@media (#{$bp-larger-than-desktop}) {}
+@include breakpoint($min-width: $desktop) {}
 
 // Larger than Desktop HD
-@media (#{$bp-larger-than-desktophd}) {}
+@include breakpoint($min-width: $desktop-hd) {}
+
+// Larger than Phablet, Smaller than Desktop HD
+@include breakpoint($min-width: $phablet, $max-width: $desktop-hd) {}
